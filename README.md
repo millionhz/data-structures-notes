@@ -98,7 +98,7 @@
     - [Double hashing (best approach)](#double-hashing-best-approach)
   - [Resizing the hash table (open addressed)](#resizing-the-hash-table-open-addressed)
   - [Time Complexity](#time-complexity)
-- [Open Addressing vs Chaining](#open-addressing-vs-chaining)
+- [Open Addressing vs Separate Chaining](#open-addressing-vs-separate-chaining)
 - [Hash Function](#hash-function)
   - [Hashcode](#hashcode)
   - [Compression Function](#compression-function)
@@ -1031,11 +1031,11 @@ $$
 \text{provided that $\frac{1}{2} <  \alpha < \frac{2}{3}$}
 $$
 
-| Open Addressing | Closed Addressing |
+| Open Addressing  | Closed Addressing |
 | --- | --- |
 | the keys may have been stored in an open slot different from the one to which it originally mapped | the key is contained within the entry to which it mapped |
-
-# Open Addressing vs Chaining
+| resolves collisions using **Separate Chaining** | resolves collision using **Linear Probing** |
+# Open Addressing vs Separate Chaining
 
 - Open Addressing yields better cache performance (better memory usage, no pointers needed)
 - Chaining is less sensitive to hash functions and the load factor
