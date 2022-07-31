@@ -1155,7 +1155,7 @@ $$
 ![Untitled](Data%20Structures%20Notes%20bb7be4d107644fe0862dd30abfbf8f31/Untitled%2088.png)
 
 - i is the index.
-- Check Slides for explanation
+- _In the example above the array is indexed from 1 (not 0)_
 
 ## Advantages
 
