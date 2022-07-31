@@ -912,7 +912,7 @@ $$
 
 ## Time Complexity of Chaining
 
-- Get, Set, Update: $\theta(a+1)$ - where c is the length of the longest linked lists
+- Get, Set, Update: $\theta(a+1)$ - where a is the length of the longest linked lists
 - Memory Complexity: $\theta(n+m)$ - where n is the size total size of our data and m is the size of the master array of the hash table.
 - When the load factor of chained hashtable reaches 1.5 we double m (size of the array), this decreases the average size of the linked lists.
 
